@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(5, 22, 37);
+    padding: 4px;
+}
+
+header main footer {
+    margin: 10px;
+}
+
+.content_section {
+    background-color: rgba(255, 255, 255, 0.101);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.content_section_nav {
+    background-color: rgba(255, 255, 255, 0.101);
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 4px;
+    align-items: center;
+}
+
+.nav_lis {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav_items {
+    margin-left: 8px;
+}
+
+.logo_text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.logo_link {
+    text-decoration: none;
+}
+
+.nav_item_right {
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.navigation_text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.content_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20PX;
+}
+
+.intro_text_section_a {
+    display: inline-block;
+    margin: 30PX;
+}
+
+.text_section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.Description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-wrap: wrap;
+
+}
+
+.dp_photo {
+    width: 20dvw;
+    border-radius: 50%;
+}
+
+/* aboout */
+
+.content_head_text_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.content_head_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.content_body_text_section {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_body_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.about_section {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-right: 30dvw;
+}
+
+/* skill */
+
+.skill_section {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    margin-left: 30dvw;
+}
+
+.skill_body_text_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills {
+    background-color: rgba(255, 255, 255, 0.071);
+    margin: 10px;
+    padding: 4px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.skill_name {
+    margin: 8px;
+}
+
+.skill_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.skill_level {
+    margin: 8px;
+}
+
+.skill_bar {
+    width: 24vw;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.202);
+    padding: 0.2%;
+}
+
+.skill_level {
+    margin: 0;
+    background-color: rgba(0, 255, 0, 0.383);
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* project */
+
+.project_section {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+
+}
+
+.project_card_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+.project_div_left {
+    background-color: rgba(255, 255, 255, 0.081);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20dvw;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.project_heading_left {
+    margin: 8px;
+}
+
+.project_description_left {
+    margin: 12px;
+    text-align: center;
+}
+
+.project_title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project_description {
+    font-size: 14px;
+}
+
+.project_div_right {
+    background-color: rgba(255, 255, 255, 0.081);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20dvw;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.project_heading_right {
+    margin: 8px;
+    text-align: right;
+}
+
+.project_description_right {
+    text-align: center;
+    margin: 12px;
+}
+
+.hover_effect:hover {
+    background-color: rgba(255, 255, 255, 0.148);
+    cursor: auto;
+}
+
+.more_project_section {
+    margin: 14px;
+    cursor: none;
+}
+
+.more_project_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.057);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.link_icon {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.more_project_text {
+    margin: 4px;
+}
+
+.more_project_icon {
+    margin: 4px;
+}
+
+.more_project_on_github {
+    color: white;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* contact */
+
+.contact_me_form_section {
+    border-radius: 10px;
+    margin: 8px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.065);
+}
+
+.qustion_section {
+    margin: 10px;
+}
+
+.qst {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ans {
+    margin-top: 8px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans_field {
+    background-color: rgba(255, 255, 255, 0.134);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    border: none;
+    color: white;
+    width: 40dvw;
+}
+
+.ans_field::placeholder {
+    color: rgba(255, 255, 255, 0.661);
+}
+
+.submit_btn {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.107);
+    color: white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit_button:hover {
+    background-color: rgba(255, 255, 255, 0.287);
+}
+
+/* follow */
+
+.follow_section {
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 8px;
+    margin-right: 20%;
+}
+
+.follow_head_text_section {
+    margin: 2px;
+}
+
+.follow_body_text_section {
+    margin: 1%;
+    padding: 4px;
+}
+
+.platdorm_group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #ffffff0c;
+}
+
+.platform {
+    margin: 10px;
+}
+
+.socialmedia_icon {
+    height: 80px;
+    border-radius: 10px;
+}
+
+/* footer */
+.footer_content {
+    display: flex;
+    align-items: center;
+}
+
+.copy_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer_list {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.footer_item_section {
+    display: flex;
+
+}
+
+.footer_icon {
+    height: 22px;
+    border-radius: 50%;
+}
+
+
+.footer_link {
+    color: white;
+}

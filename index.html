@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./dynamic/socket.css">
+    <link rel="stylesheet" href="./static/mobile.css">
+    <link rel="shortcut icon" href="./static/template/faviconc.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="content_section_nav" id="nav_bar">
+                <ul class="nav_lis">
+                    <li class="nav_items">
+                        <a class="logo_link" href="./index.html">
+                            <p class="logo_text" id="MyName"></p>
+                        </a>
+                    </li>
+
+                    <div class="nav_item_right">
+                        <ul class="nav_lis">
+                            <li class="nav_items "><a class="navigation_text" href="#about_section">About</a></li>
+                            <li class="nav_items "><a class="navigation_text" href="#skill_section">Skills</a></li>
+                            <li class="nav_items "><a class="navigation_text" href="#project_section">Projects</a></li>
+                            <li class="nav_items "><a class="navigation_text" href="#contact_section">Contact</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content_section">
+            <!-- intro -->
+            <div class="content_inner">
+                <div class="intro_text_section_a">
+                    <!-- Name -->
+                    <div class="name_text_section ">
+                        <p class="name" id="MyName_Name">
+
+                        </p>
+                    </div>
+                    <!-- small about -->
+                    <div class="text_section">
+                        <p class="Description">I am Currently a Bachelor Student at abacus institute of engineering and
+                            management</p>
+                    </div>
+                </div>
+                <!-- DP -->
+                <div class="dp_section">
+                    <img src="./dynamic/image/dp.jpg" alt="Pinaka" srcset="" class="dp_photo" id="dp_photo">
+                </div>
+            </div>
+
+            <!-- about -->
+            <div class="contet_inner">
+                <div class="about_section" id="about_section">
+                    <!-- heading -->
+                    <div class="content_head_text_section">
+                        <p class="content_head_text">
+                            About Me
+                        </p>
+                    </div>
+                    <!-- content -->
+                    <div class="content_body_text_section">
+                        <p class="content_body_text">
+                            I am a dedicated bachelor student, fueled by a profound passion for programming,
+                            specifically
+                            Python and JavaScript. Currently pursuing my degree in Electronics and Communication Engg at
+                            Abacus
+                            Institute of Engeneering and Management , I have immersed myself in the dynamic world of
+                            code.
+                            Proficient in Python's versatility and Go's efficiency, I have applied these skills to
+                            diverse
+                            projects, showcasing my commitment to clean, effective solutions. Eager to contribute to
+                            innovative initiatives, my academic journey has been a blend of theoretical knowledge and
+                            hands-on experience. Beyond coding, I seek to continuously learn and evolve, driven by a
+                            genuine
+                            love for the craft. Ready to embark on new challenges and collaborations, I am poised to
+                            make
+                            impactful contributions to the world of technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="contet_inner">
+                <div class="skill_section" id="skill_section">
+                    <!-- heading -->
+                    <div class="content_head_text_section">
+                        <p class="content_head_text">
+                            My Skills
+                        </p>
+                    </div>
+                    <div class="skill_body_text_section">
+                        <!-- skill 1 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">Python</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level python" id="python">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 2 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">Arduino</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level arduino" id="arduino">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 3 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">Git & GitHub</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level git" id="git">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 4 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">HTML</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level html" id="html">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 5 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">CSS</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level css" id="css">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 6 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">JavaScript</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level js" id="js">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- skill 7 -->
+                        <div class="skills">
+                            <div class="skill_name">
+                                <p class="skill_text">Flask</p>
+                            </div>
+                            <div class="skill_level_bar">
+                                <div class="skill_bar">
+                                    <div class="skill_level flask" id="flask">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- projects -->
+            <div class="contet_inner">
+                <div class="project_section" id="project_section">
+                    <!-- heading -->
+                    <div class="content_head_text_section">
+                        <p class="content_head_text">
+                            My Projects
+                        </p>
+                    </div>
+                    <!-- content -->
+                    <div class="project_body_text_section">
+
+                        <!-- project 1 -->
+                        <div class="project_div_left hover_effect">
+                            <a href="https://github.com/pin4ka/store_management">
+                                <div class="project_heading_left ">
+                                    <p class="project_title project_card_text">Store Management System
+                                    </p>
+                                </div>
+                                <div class="project_description_left">
+                                    <p class="project_description project_card_text">The Store Management System Project
+                                        is
+                                        a command-line interface (CLI) application
+                                        designed to streamline operations for shopkeepers and enhance the shopping
+                                        experience for customers. Shopkeepers can efficiently track their products and
+                                        sales,
+                                        manage inventory, and analyze sales data. Customers can easily calculate their
+                                        bills
+                                        by
+                                        selecting products and specifying quantities. With its user-friendly interface
+                                        and
+                                        comprehensive features, this system simplifies store management tasks while
+                                        ensuring a seamless and convenient shopping process for customers.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- project 2 -->
+
+                        <div class="project_div_right hover_effect">
+                            <a href="https://rax-2.github.io/Multi-functional-smart-home-automation-System/">
+                                <div class="project_heading_right ">
+                                    <p class="project_title project_card_text">Multi functional smart home automation
+                                        System
+                                    </p>
+                                </div>
+                                <div class="project_description_right">
+                                    <p class="project_description project_card_text">
+                                        Introducing a Multi-functional Smart Home Automation System designed to
+                                        revolutionize modern living. This IoT-based project aims to provide unparalleled
+                                        convenience and safety through an array of innovative features. With voice
+                                        control
+                                        capabilities, mobile app integration, and automated lighting adjustments,
+                                        managing
+                                        your home has never been easier. Integrated gas and fire sensors ensure
+                                        immediate
+                                        detection and alerts, while emergency shutdown capabilities prioritize safety in
+                                        hazardous situations. Enjoy simplified daily routines, optimized energy usage,
+                                        and
+                                        enhanced security, tailored for family homes, vacation properties, elderly care,
+                                        and
+                                        rental management. Though setup may require technical know-how, the benefits of
+                                        this system offer peace of mind and efficiency for every user
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- project 3 -->
+                        <div class="project_div_left hover_effect">
+                            <a href="https://rax-2.github.io/wirelwss-EVs-charging/">
+                                <div class="project_heading_left ">
+                                    <p class="project_title project_card_text">Wireless Charging System for Static
+                                        and Dynamic EVs</p>
+                                </div>
+                                <div class="project_description_left">
+                                    <p class="project_description project_card_text">Wireless Electric Vehicle Charging
+                                        project
+                                        revolutionizes EV charging. Combining static and dynamic capabilities, it offers
+                                        efficient, cord-free charging for stationary and moving electric vehicles,
+                                        providing
+                                        a
+                                        sustainable and convenient solution for the future of transportation.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- github link  -->
+                        <div class="more_project_section ">
+                            <a href="https://github.com/rax-2?tab=repositories">
+                                <div class="more_project_inner hover_effect">
+                                    <div class="more_project_text">
+                                        <p class="more_project_on_github">See more projects on GitHub</p>
+                                    </div>
+                                    <div class="more_project_icon">
+                                        <img src="./static/template/git_icon.png" alt="" srcset="" class="link_icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="contet_inner">
+                <div class="contact_section" id="contact_section">
+                    <div class="content_head_text_section">
+                        <p class="content_head_text">
+                            Contact Me
+                        </p>
+                    </div>
+                    <!-- content -->
+                    <div class="content_body_text_section">
+                        <div class="contact_me_form_section" id="contact_sec">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contatct_me_form"
+                                id="contatct_me_form">
+
+                                <input type="hidden" name="access_key" value="4b4f29c0-05c1-40fc-a5e8-67969706c3f5">
+
+                                <div class="qustion_section">
+                                    <label for="name_form" class="qst">Full Name *</label>
+                                    <div class="ans">
+                                        <input type="text" id="name_form" name="first_name" class="name_form ans_field"
+                                            placeholder="Enter Your Fullname..." required>
+                                    </div>
+                                </div>
+
+
+                                <div class="qustion_section">
+                                    <label for="mail_form" class="qst">E-mail *</label>
+                                    <div class="ans">
+                                        <input type="email" name="e-mail" id="mail_form" class="mail_form ans_field"
+                                            placeholder="Enter Your E-Mail..." required>
+                                    </div>
+                                </div>
+
+
+                                <div class="qustion_section">
+                                    <label for="msg" class="qst">Message *</label>
+                                    <div class="ans">
+                                        <textarea class="msg ans_field" placeholder="Enter Your message..." required
+                                            name="message" id="msg"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="qustion_section">
+                                    <div class="submit_btn">
+                                        <button type="submit" class="submit_button" id="submit_button">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- follow -->
+            <div class="contet_inner">
+                <div class="follow_section">
+                    <!-- heading -->
+                    <div class="follow_head_text_section ">
+                        <p class="content_head_text">
+                            Follow Me
+                        </p>
+                    </div>
+                    <!-- content -->
+                    <div>
+                        <div class="follow_body_text_section">
+                            <div class="social_media_redirect_section">
+                                <div class="platdorm_group">
+                                    <a href="https://www.facebook.com/Raxkund">
+                                        <div class="platform">
+                                            <img src="./static/template/facebook.png" alt="" srcset=""
+                                                class="socialmedia_icon">
+                                        </div>
+                                    </a>
+
+                                    <a href="http://www.linkedin.com/in/rakesh4002/">
+                                        <div class="platform">
+                                            <img src="./static/template/linkedin.png" alt="" srcset=""
+                                                class="socialmedia_icon">
+                                        </div>
+                                    </a>
+
+                                    <a href="http://github.com/pin4ka">
+                                        <div class="platform">
+                                            <img src="./static/template/github.png" alt="" srcset=""
+                                                class="socialmedia_icon">
+                                        </div>
+                                    </a>
+                                    <!-- <a href="">
+                                        <div class="platform">
+                                            <img src="./static/template/git.png" alt="" srcset=""
+                                                class="socialmedia_icon">
+                                        </div>
+                                    </a> -->
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="content_section">
+
+            <div class="footer_content">
+                <a href="https://github.com" class="footer_link footer_content">
+                    <p class="copy_text">
+                        Powered by GitHub
+                    </p>
+                    <img class="footer_icon" src="./static/template/git.png" alt="" srcset="">
+                </a>
+                <ul class="footer_list">
+                    <div class="footer_item_section">
+
+                        <li class="footer_item">
+                            <p class="copy_text"><a class="footer_link" href="https://github.com/pin4ka">&COPY <strong
+                                        id="year_copy"></strong> Pinaka</a></p>
+                        </li>
+                        <li class="footer_item">
+                            <p class="copy_text">All Copyright Reserved</p>
+                        </li>
+                        <li class="footer_item"></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dynamic/script.js"></script>
+    <script>
+    </script>
+
+</body>
+
+</html>

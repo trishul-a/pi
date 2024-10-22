@@ -1,0 +1,26 @@
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 740px) {
+    .content_inner {
+        flex-wrap: wrap;
+    }
+}
